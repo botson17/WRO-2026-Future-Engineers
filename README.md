@@ -63,6 +63,10 @@ The vehicle uses a **Raspberry Pi 4 Model B with 8 GB RAM** as its main processi
 
 The complete control software is being developed in **Python**, while **OpenCV** is used for image acquisition and image-processing tasks.
 
+![Concept visualization of the autonomous vehicle](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/v-photos/Visualization1.jpg)
+
+*Concept visualization; the physical build may differ.*
+
 ---
 
 ## 3. Design Goals
@@ -105,6 +109,14 @@ The robot uses **LEGO wheels** and LEGO-compatible axles in the drivetrain. This
 - **Rear axle connection:** LEGO-compatible axle system
 
 > **TODO:** Add final vehicle dimensions and total mass after assembly.
+
+Concept views of the proposed vehicle:
+
+![Concept visualization, side view](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/v-photos/Visualization2.jpg)
+
+![Concept visualization, opposite side view](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/v-photos/Visualization3.jpg)
+
+*These are concept visualizations, not photographs of the completed robot.*
 
 ---
 
@@ -302,6 +314,10 @@ For red and green objects, the closest relevant obstacle is selected primarily f
 ## 9. Software Architecture
 
 The software is written in **Python** and divided into separate modules for perception, decision-making, and actuator control.
+
+![Concept diagram of the autonomous navigation process](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/other/Autonomous%20Navigation%20Process%20BD.jpg)
+
+*Development concept; component labels and control logic will be checked against the final build.*
 
 The current main files are:
 
@@ -519,6 +535,8 @@ The robot does **not** perform the parking task. The current development is focu
 
 Development is performed incrementally so that perception, steering, and propulsion can be validated independently.
 
+![Motor and driver components during development](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/v-photos/in%20the%20details%20of%20the%20process.jpg)
+
 The current test sequence is:
 
 1. Raspberry Pi and power-system verification;
@@ -619,6 +637,10 @@ Additional images will document:
 - camera mounting;
 - chassis construction.
 
+Prototype during assembly:
+
+![Robot prototype during assembly](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/v-photos/Robot.jpg)
+
 > **TODO:** Insert final photos after the vehicle is assembled.
 
 ---
@@ -645,6 +667,10 @@ The mechanical documentation will include available drawings of:
 - steering mechanism;
 - axle/transmission arrangement;
 - camera mount.
+
+Preliminary electronics diagram (to be revised to match the final camera and power configuration):
+
+![Preliminary electronics diagram](https://raw.githubusercontent.com/botson17/WRO-2026-Future-Engineers/main/other/Electronic.jpg)
 
 > **TODO:** Upload wiring diagram and final mechanical drawings.
 
